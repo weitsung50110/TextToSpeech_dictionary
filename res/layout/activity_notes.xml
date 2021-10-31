@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".notes">
+
+        <Button
+            android:id="@+id/search_btn"
+            android:layout_width="59dp"
+            android:layout_height="29dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/effects"
+            android:foreground="@drawable/ripple"
+            android:text="@android:string/search_go"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toStartOf="@+id/add_editText2"
+            app:layout_constraintHorizontal_bias="0.2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/search_editText" />
+
+        <EditText
+            android:id="@+id/search_editText"
+            android:layout_width="54dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="搜尋"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toStartOf="@+id/add_editText1"
+            app:layout_constraintHorizontal_bias="0.333"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/notes_recyclerView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/select_btn" />
+
+        <Button
+            android:id="@+id/add_btn"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="64dp"
+            android:layout_marginLeft="64dp"
+            android:layout_marginTop="20dp"
+            android:foreground="@drawable/ripple"
+            android:background="@drawable/ic_add_box_black_24dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/add_editText2" />
+
+        <Button
+            android:id="@+id/select_btn"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:foreground="@drawable/ripple"
+            android:background="@drawable/ic_library_books_black_24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.535"
+            app:layout_constraintStart_toEndOf="@+id/add_btn"
+            app:layout_constraintTop_toBottomOf="@+id/add_editText2" />
+
+        <EditText
+            android:id="@+id/add_editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="請輸入單字"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.424"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/add_editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:ems="10"
+            android:hint="單字解釋"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.424"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/add_editText1" />
+
+        <Button
+            android:id="@+id/big_start_btn"
+            android:layout_width="61dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="32dp"
+            android:background="@android:drawable/star_big_on"
+            android:foreground="@drawable/ripple"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.709"
+            app:layout_constraintStart_toEndOf="@+id/add_editText1"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

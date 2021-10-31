@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/notes_menu"
+        android:title="notes"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_notes"></item>
+
+    <item
+        android:id="@+id/pen_menu"
+        android:title="pen"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_pen"></item>
+
+    <item
+        android:id="@+id/app_des"
+        android:title="說明"></item>
+</menu>
