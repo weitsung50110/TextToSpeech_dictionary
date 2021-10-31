@@ -16,7 +16,7 @@
 ![](https://github.com/a1233z/text_to_voice_dicitionary_public/blob/master/github_images/2.png)
 
 ## TEXTTOSPEECH
-* You can choose the line you like, and AI will speak in english or chinese for you.
+* You can choose the line you like, when you press the volume buttom, AI will read out the line you choose in english or chinese for you.
 
 ![](https://github.com/a1233z/text_to_voice_dicitionary_public/blob/master/github_images/3.png)
 
