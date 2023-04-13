@@ -17,6 +17,7 @@ C. 單字和例句都有合成語音幫忙念出來 <br />
 D. 單字可刪除和修改。<br />
 
 ## Video
+* This video was uploaded on youtube, welcome to watch it.
 [![Watch the video](https://github.com/weitsung50110/TextToSpeech_dictionary/blob/master/github_images/video_pic1.png)](https://www.youtube.com/watch?v=oBl6HfmIn9g&ab_channel=%E5%B4%B4%E5%B4%B4)
 
 
