@@ -16,8 +16,9 @@ B. 將喜歡的單字加入「我的最愛」 <br />
 C. 單字和例句都有合成語音幫忙念出來 <br />
 D. 單字可刪除和修改。<br />
 
-##Video
-<iframe width="560" height="315" src="https://www.youtube.com/embed/oBl6HfmIn9g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+## Video
+[![Watch the video](https://github.com/a1233z/text_to_voice_dicitionary_public/blob/master/github_images/0.png)](https://www.youtube.com/watch?v=oBl6HfmIn9g&ab_channel=%E5%B4%B4%E5%B4%B4)
+
 
 ## Main page in mobile phone
 ![](https://github.com/a1233z/text_to_voice_dicitionary_public/blob/master/github_images/0.png)
