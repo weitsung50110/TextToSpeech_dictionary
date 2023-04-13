@@ -17,7 +17,7 @@ C. 單字和例句都有合成語音幫忙念出來 <br />
 D. 單字可刪除和修改。<br />
 
 ## Video
-[![Watch the video](https://github.com/a1233z/text_to_voice_dicitionary_public/blob/master/github_images/0.png)](https://www.youtube.com/watch?v=oBl6HfmIn9g&ab_channel=%E5%B4%B4%E5%B4%B4)
+[![Watch the video](https://github.com/weitsung50110/TextToSpeech_dictionary/blob/master/github_images/video_pic1.png)](https://www.youtube.com/watch?v=oBl6HfmIn9g&ab_channel=%E5%B4%B4%E5%B4%B4)
 
 
 ## Main page in mobile phone
